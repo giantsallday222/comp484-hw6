@@ -1,0 +1,101 @@
+/* ============================================
+   COLOR PALETTE 
+   ============================================
+   Primary Dark:    #2C3E50  (dark navy blue)
+   Primary:         #3498DB  (bright blue)
+   Light:           #ECF0F1  (light gray)
+   Accent:          #E74C3C  (red accent)
+   White:           #FFFFFF
+   ============================================ */
+
+/* Set default font family */
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #2C3E50;
+}
+
+/* Adjust h1 and h2 font sizes */
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    font-weight: 800; /* font-weight */
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+    font-weight: 600; /* font-weight */
+}
+
+/* Additional heading and body styling */
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700; /* font-weight */
+}
+
+p {
+    font-weight: 300; /* lighter body text */
+    line-height: 1.6;
+}
+
+a {
+    color: #3498DB;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   HEADER 
+   ============================================ */
+.main-header {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.main-header h2 {
+    color: #3498DB;
+}
+
+.main-header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* ============================================
+   WORK EXPERIENCE 
+   ============================================ */
+.work-experience {
+    background-color: #ECF0F1;
+    padding: 30px 20px;
+}
+
+/* ============================================
+   EDUCATION 
+   ============================================ */
+.education {
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+}
+
+/* ============================================
+   FOOTER 
+   ============================================ */
+.main-footer {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.main-footer a {
+    color: #3498DB;
+}
